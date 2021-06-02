@@ -15,7 +15,10 @@ const forCast = (latitude, longtitude, callback) => {
 		} else {
 			callback(
 				undefined,
-				response.body.current.temperature + ' degrees out and feels like ' + response.body.current.feelslike+" observed at : "+response.body.location.localtime
+				response.body.current.temperature + 
+				' degrees out and feels like  ' + 
+				response.body.current.feelslike+
+				", observed at : "+response.body.location.localtime
 			)
 		}
 	})
