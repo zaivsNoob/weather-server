@@ -5,7 +5,7 @@ const hbs = require('hbs')
 const geoCode = require('./utils/geocode')
 const forCast = require('./utils/forecast')
 
-const request = require('request')
+
 
 //directory configs
 const pathDirectory = path.join(__dirname, '../public')
